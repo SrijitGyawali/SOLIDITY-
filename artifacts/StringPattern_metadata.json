@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "generatePattern",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"loop.sol": "StringPattern"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"loop.sol": {
+			"keccak256": "0xc7ad50b8c77cb0d5cdcdd7593b4d5bbc4406b2c04efe36ace5b9aceb18f8bb1b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b9af476c7bdb353dc4556967e24489bb047be9502dce4fde5a272348c87fbac",
+				"dweb:/ipfs/QmS43uZrX3sS4WTP6LVgfLK4mLxgN1jDhnXnGuxPy2QTf4"
+			]
+		}
+	},
+	"version": 1
+}

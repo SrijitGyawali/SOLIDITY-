@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initVal",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "findLargest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Largest",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ifelse.sol": "ifElse"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ifelse.sol": {
+			"keccak256": "0xa2bbace71460c9de233c8a5e7759116f5193e3a6e6673eae399abcfa4cebcc81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f46e6378f04c4381ed0453e7d30190f284527ca8911464ae5ec1acb4af710fc",
+				"dweb:/ipfs/QmQMEitX4U4TGdryrTajurJ3JLXLfM31HUpTLGWLrueELJ"
+			]
+		}
+	},
+	"version": 1
+}

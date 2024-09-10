@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "WithdrawalFailed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "WithdrawalSuccess",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "loadWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawToExternal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tc1.sol": "ErrorHandling"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tc1.sol": {
+			"keccak256": "0x65c7774f1c5b414ef399de3577860fe1d8b466fd05f484c9d491260ca8277f8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://899bad842051ee8c6d67b527c72b942d0e58450a4613e141761d29ace70bb0a7",
+				"dweb:/ipfs/QmY53xaJp8o3tmrJ2iKqxY1vP8gazePQtYtHzx5oENWGYn"
+			]
+		},
+		"tc2.sol": {
+			"keccak256": "0x509b9f7551398ccf442f399b926760b48e514e485cf039e6387940ef2241c750",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aab3e0c740b2b29e20e22490b7fd968cb478a3ed76552d1ea4a10fad849625f5",
+				"dweb:/ipfs/QmdFM9cRtg9xCbf7x3zKk5i84fkvwiFAeoJgvkj57HCyse"
+			]
+		}
+	},
+	"version": 1
+}

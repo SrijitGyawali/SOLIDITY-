@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractBAddress",
+						"type": "address"
+					}
+				],
+				"name": "callGetData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractBAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"externalfuncall.sol": "ContractA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"externalfuncall.sol": {
+			"keccak256": "0xa68ecc5163e8ae006ba1356d8d0d577010bdd5159280038732bd89dfcd1f2fd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8ec49601dae9ff4166639861ac80bb2624f60c66ea28367594fd9af86583d7d",
+				"dweb:/ipfs/QmWubb6p9GbfXGaU5D9xug3UoN89y53yFFxzXixKihucAb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "FundsDeposited",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "depositeFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"events.sol": "ExampleContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"events.sol": {
+			"keccak256": "0x4e8a755bfb48dff7ec82673209cbf9c6263264504e04cdc4310333ec2ceaf3d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee87999167eafb46c8e6463af64767c488e8de01d1e8769f90be7b71bc262f67",
+				"dweb:/ipfs/QmQJzCeXM7S2aA8wmWXHfPX5fbmEcAL2qtTVPKsGXmLyxL"
+			]
+		}
+	},
+	"version": 1
+}

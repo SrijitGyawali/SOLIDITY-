@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "receiveFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"try.sol": "IRecipient"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"try.sol": {
+			"keccak256": "0x4dde782f1cd9ac1f74a2b9ea1416eff1fc3e67dc0cf28fc6fe173ec70b00c712",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ea882debde63482bbc8db0117022d33061da8092e6a9d6e54c9ef3a44c1a07d",
+				"dweb:/ipfs/QmWjKr243tzx654GXpfQFg8bM7jLrjtekhFrkMRKhQtnUM"
+			]
+		}
+	},
+	"version": 1
+}

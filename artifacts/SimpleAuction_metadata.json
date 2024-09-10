@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "bidder",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "HighestBidIncreased",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eventsadv.sol": "SimpleAuction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eventsadv.sol": {
+			"keccak256": "0xc088f23020ba0cbabd4cfc1b6c037fcb546fbeb263c308639d375c02554f4da7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01a7ca4874b877fae07c8714303f6e7b883b1db2bb3429f5d95fe6a05b234ac8",
+				"dweb:/ipfs/QmNiVTQtFFKPPEYoi4JBkq84n9BJbcPPEVWaRo2xPSpSJn"
+			]
+		}
+	},
+	"version": 1
+}

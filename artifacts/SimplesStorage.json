@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "608060405260385f557f6361740000000000000000000000000000000000000000000000000000000000600155603860025560196003553480156040575f80fd5b50603e80604c5f395ff3fe60806040525f80fdfea26469706673582212200757c4739b18089d61c821dca6ce3d3eb3baae2bf7f82bd2d909bd8c547f304f64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x38 PUSH0 SSTORE PUSH32 0x6361740000000000000000000000000000000000000000000000000000000000 PUSH1 0x1 SSTORE PUSH1 0x38 PUSH1 0x2 SSTORE PUSH1 0x19 PUSH1 0x3 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x40 JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x4C PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SMOD JUMPI 0xC4 PUSH20 0x9B18089D61C821DCA6CE3D3EB3BAAE2BF7F82BD2 0xD9 MULMOD 0xBD DUP13 SLOAD PUSH32 0x304F64736F6C634300081A003300000000000000000000000000000000000000 ",
+			"sourceMap": "105:180:0:-:0;;;156:2;136:22;;165:35;;;222:2;207:17;;239:2;231:10;;105:180;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea26469706673582212200757c4739b18089d61c821dca6ce3d3eb3baae2bf7f82bd2d909bd8c547f304f64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SMOD JUMPI 0xC4 PUSH20 0x9B18089D61C821DCA6CE3D3EB3BAAE2BF7F82BD2 0xD9 MULMOD 0xBD DUP13 SLOAD PUSH32 0x304F64736F6C634300081A003300000000000000000000000000000000000000 ",
+			"sourceMap": "105:180:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "88487",
+				"totalCost": "100887"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
